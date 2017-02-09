@@ -3,7 +3,9 @@ import "babel-polyfill"
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Carousel from "./app/Carousel"
+
 ReactDOM.render(
-    <h1>Hello React!</h1>,
+    <Carousel />,
     document.getElementById('root')
 );

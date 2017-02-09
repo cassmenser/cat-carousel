@@ -2,3 +2,39 @@ body {
     font-family: Helvetica, Arial, Sans-Serif, sans-serif;
     background: white;
 }
+
+#root {
+
+}
+
+.image-gallery {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gallery-image {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image img {
+    width: 100%;
+    max-height: 350px;
+}
+
+.image-scroller {
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.image-scroller img {
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+}
