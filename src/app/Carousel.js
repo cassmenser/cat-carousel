@@ -1,10 +1,13 @@
 import React, {Component} from 'react'
 
 const catImages = [
-    "http://i.imgur.com/EKEIGnI.jpg",
-    "hhttp://i.imgur.com/5i866n2b.jpg",
-    "http://i.imgur.com/FmbuPNeb.jpg",
-    "http://i.imgur.com/vRKI7wIb.jpg"
+    "http://i.imgur.com/QguNZ3a.jpg",
+    "http://i.imgur.com/sPANQNZ.jpg",
+    "http://i.imgur.com/yiNa01J.jpg",
+    "http://i.imgur.com/pzfHxc4.jpg",
+    "http://i.imgur.com/tgrMluL.jpg",
+    "http://i.imgur.com/oDlmNJh.jpg",
+    "http://i.imgur.com/2t6zqoy.jpg?1"
 ];
 
 export default class Carousel extends Component {
@@ -16,13 +19,11 @@ export default class Carousel extends Component {
         }
     }
 
-
     handleThumbClick(selectedImage) {
         this.setState({
             selectedImage
         })
     }
-
 
     render() {
         const {images, selectedImage} = this.state;
